@@ -1,0 +1,56 @@
+.container
+{
+    font-family: 'Viga', sans-serif;
+    /*font-size: 25px;*/
+}
+.my-name
+{
+    font-family: 'Leckerli One', cursive;
+
+}
+#div-socialmedia-accounts
+{
+    display: inline;
+}
+  
+a{
+    color: #445c3c;
+}
+#socialmedia-accounts li
+{
+    font-size: 30px;
+    display: inline;
+    padding: 10px;
+    color: #445c3c;
+}
+.typewriter {
+	display: block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	/*letter-spacing: 2px;*/
+ 	animation: typing 20s steps(550, end);
+    white-space: nowrap;
+    /*font-size: 30px;*/
+    font-weight: 700;
+    box-sizing: border-box;
+    color: #445c3c;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+.well
+{
+    background-color: #e0e0e0 !important;
+}
+h1:hover{
+    color: #445c3c;;
+}
